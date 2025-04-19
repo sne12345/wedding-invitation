@@ -3,7 +3,6 @@ import Divider from "./components/divider";
 import Footer from "./components/footer";
 import Gallery from "./components/gallery";
 import Info from "./components/info";
-import Location from "./components/location";
 import SplineLove from "./components/spline-love";
 import Title from "./components/title";
 import { container } from "./page.css";

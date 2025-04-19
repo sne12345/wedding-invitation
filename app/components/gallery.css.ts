@@ -17,18 +17,16 @@ export const description = style({
 });
 
 export const imageContainer = style({
-  display: "grid",
-  gridTemplateColumns: "auto auto",
-  gridTemplateRows: "auto auto auto",
-  gap: "5px",
+  columnCount: 2,         // ✅ 2열 구성 (반응형이면 media query로 조절 가능)
+  columnGap: "5px",       // 열 사이 여백
 });
 
 export const image = style({
-  width: "100%",
-  height: "auto",
-  objectFit: "cover",
+  width: "100%",          // ✅ column에 맞춰 자동 조정
+  height: "auto",         // ✅ 비율 유지
+  marginBottom: "5px",    // 아래 여백
+  breakInside: "avoid",   // ✅ 열 중간에 이미지 잘리는 현상 방지
 });
-
 export const icon = style({
   position: "absolute",
   top: 0,
