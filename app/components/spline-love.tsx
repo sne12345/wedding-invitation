@@ -1,11 +1,16 @@
 
 "use client";
 
-import { container, loading } from "./spline-love.css";
+import { container, icon,loading } from "./spline-love.css";
+import { LeavesArt } from "./svgs";
 
 export default function SplineLove() {
   return (
+
     <div className={container}>
+      <div className={icon}>
+        <LeavesArt />
+      </div>
       <img
         src="/gallery/main-photo10.png" // 이미지 경로
         alt="메인 이미지"

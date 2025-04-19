@@ -18,3 +18,10 @@ export const loading = style({
   top: "45%",
   left: "45%",
 });
+
+
+export const icon = style({
+  position: "absolute",
+  top: 0,
+  left: 0,
+});
