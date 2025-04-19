@@ -18,7 +18,7 @@ export const images = [
   // "photo4.jpg",
   "photo9.jpg",
   "photo6.jpg",
-  // "photo5.jpg",
+  "photo5.jpg",
   "photo1.jpg",
   "photo8.jpg",
   // "photo3.jpg",
