@@ -15,7 +15,7 @@ import { SmallLeavesArt } from "./svgs";
 export const images = [
   "photo7.jpg",
   "photo2.jpg",
-  "photo4.jpg",
+  // "photo4.jpg",
   "photo9.jpg",
   "photo6.jpg",
   // "photo5.jpg",
