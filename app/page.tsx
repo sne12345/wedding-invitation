@@ -15,14 +15,14 @@ export default function Home() {
       <SplineLove />
       <Info />
 
-      <Divider />
-      <Location />
-
-      <Divider />
-      <Accounts />
+      {/* <Divider /> */}
+      {/* <Location /> */}
 
       <Divider />
       <Gallery />
+
+      <Divider />
+      <Accounts />
 
       <Footer />
     </main>

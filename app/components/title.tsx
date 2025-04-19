@@ -6,7 +6,7 @@ export default function Title() {
     <div className={container}>
       <LeavesCrownArt />
       <h2 className={subTitle}>청첩장</h2>
-      <h1 className={title}>박범영 & 정미량</h1>
+      <h1 className={title}>김우재 & 송나은</h1>
     </div>
   );
 }

@@ -17,36 +17,26 @@ const mAccounts: Account[] = [
   {
     bank: "하나",
     number: "-",
-    name: "정미량",
+    name: "송나은",
   },
   {
     bank: "농협",
     number: "-",
-    name: "김미화",
-  },
-  {
-    bank: "하나",
-    number: "-",
-    name: "정길훈",
-  },
+    name: "송나은",
+  }
 ];
 
 const bAccounts: Account[] = [
   {
     bank: "신한",
     number: "-",
-    name: "박범영",
+    name: "김우재",
   },
   {
     bank: "하나",
     number: "-",
-    name: "이미연",
-  },
-  {
-    bank: "농협",
-    number: "-",
-    name: "박원용",
-  },
+    name: "김우재",
+  }
 ];
 
 export default function Accounts() {
@@ -54,10 +44,10 @@ export default function Accounts() {
     <section className={container}>
       <SectionTitle title="마음 전하실 곳" />
       <p className={description}>
-        <span>참석이 어려우신 분들을 위해 계좌번호를 기재하였습니다.</span>
+        {/* <span>참석이 어려우신 분들을 위해 계좌번호를 기재하였습니다.</span>
         <span> 너그러운 마음으로 양해 부탁드리며,</span>
         <span>축의금을 보내주신 분들께 감사의 뜻을 전하고 싶습니다.</span>
-        <span>연락주시면 감사하겠습니다.</span>
+        <span>연락주시면 감사하겠습니다.</span> */}
       </p>
       <Block accounts={mAccounts} who="신부" />
       <Block accounts={bAccounts} who="신랑" />

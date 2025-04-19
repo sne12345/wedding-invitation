@@ -47,14 +47,14 @@ export default function Location() {
 
       <div className={info}>
         <b>위치 안내</b>
-        <span>포항 시외버스터미널에서 차로 5분 거리</span>
-        <span>포항 IC에서 차로 10분 거리</span>
+        <span>blah blah</span>
+        <span>blah blah</span>
       </div>
 
       <div className={info}>
         <b>주차 안내</b>
-        <span>예식장 옆 포항시청주차장 무료 이용</span>
-        <span>(동시주차 1000대)</span>
+        <span>blah blah</span>
+        <span>blah blah</span>
       </div>
 
       <div className={icon}>

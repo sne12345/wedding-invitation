@@ -15,9 +15,9 @@ export default function RootLayout({
 }
 
 export async function generateMetadata(): Promise<Metadata> {
-  const title = "정미량, 박범영 결혼합니다";
-  const description = "24년 3월 30일 11시 30분, 포항 UA컨벤션 5층 메리골드홀";
-  const images = "https://r2.wedding.beomyeong.miryang.dev/_BKK6901-2.jpg";
+  const title = "김우재, 송나은 결혼합니다";
+  const description = "25년 5월 23일";
+  const images = "/gallery/photo1.jpg";
   return {
     title,
     description,
@@ -35,9 +35,7 @@ export async function generateMetadata(): Promise<Metadata> {
     },
     other: {
       ["twitter:label1"]: "날짜",
-      ["twitter:data1"]: "2024.03.30 11:30",
-      ["twitter:label2"]: "장소",
-      ["twitter:data2"]: "포항 UA컨벤션 5층 메리골드홀",
+      ["twitter:data1"]: "2025.05.23"
     },
   };
 }

@@ -5,7 +5,7 @@ export const container = style({
   display: "flex",
   flexDirection: "column",
   gap: "26px",
-  margin: "40px 0",
+  margin: "40px 0 0 0",
 });
 
 export const title = style({
@@ -41,7 +41,7 @@ export const weddingRow = style({
   flexDirection: "row",
   gap: "8px",
   alignItems: "center",
-  width: "180px",
+  width: "200px",
 });
 
 export const icon = style({
