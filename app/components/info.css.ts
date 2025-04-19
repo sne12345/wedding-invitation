@@ -5,7 +5,7 @@ export const container = style({
   display: "flex",
   flexDirection: "column",
   gap: "26px",
-  margin: "40px 0 0 0",
+  margin: "10px 0 0 0",
 });
 
 export const title = style({
@@ -16,7 +16,7 @@ export const title = style({
 });
 
 export const phrase = style({
-  fontSize: 14,
+  fontSize: 16,
   fontWeight: "400",
   lineHeight: 1.5,
   wordBreak: "keep-all",
@@ -28,7 +28,7 @@ export const wedding = style({
   display: "flex",
   flexDirection: "column",
   gap: "8px",
-  fontSize: 14,
+  fontSize: 18,
   fontWeight: "400",
   borderLeft: "4px solid #FFBE98",
   paddingLeft: 8,
@@ -41,7 +41,7 @@ export const weddingRow = style({
   flexDirection: "row",
   gap: "8px",
   alignItems: "center",
-  width: "200px",
+  width: "300px",
 });
 
 export const icon = style({

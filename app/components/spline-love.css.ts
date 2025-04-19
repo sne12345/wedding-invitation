@@ -25,8 +25,8 @@ export const image = style({
   margin: "0 auto", // 가운데 정렬
 
   "@media": {
-    "screen and (min-width: 600)": {
-      width: "60%", // PC일 때 이미지 너비 줄임
+    "screen and (min-width: 600px)": {
+      width: "50%", // PC일 때 이미지 너비 줄임
       height: "auto", // 자동으로 맞춤
     },
   },

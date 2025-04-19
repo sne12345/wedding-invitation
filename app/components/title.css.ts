@@ -10,14 +10,14 @@ export const container = style({
 });
 
 export const title = style({
-  fontSize: 18,
+  fontSize: 20,
   fontWeight: "bold",
   lineHeight: 1.0,
   margin: "0 20px",
 });
 
 export const subTitle = style({
-  fontSize: 14,
+  fontSize: 16,
   lineHeight: 1.0,
   fontWeight: "400",
 });
