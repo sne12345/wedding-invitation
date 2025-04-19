@@ -16,9 +16,9 @@ export default function SplineLove() {
         alt="메인 이미지"
         style={{
           width: "100%",
-          maxWidth: "100%",
           height: "100%",            // 세로 비율 유지
-          objectFit: "fill",      // 넘치지 않게
+          objectFit: "cover",      // 넘치지 않게
+          display: "block", // ✅ 줄 간격 제거
         }}
       />
     </div>

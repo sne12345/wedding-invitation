@@ -1,11 +1,18 @@
 import { style } from "@vanilla-extract/css";
 
+// export const container = style({
+//   width: "100%",
+//   height: "100%",
+//   aspectRatio: "auto 658 / 333",
+//   background: "RGB(241, 206, 186)",
+//   position: "relative",
+// });
 export const container = style({
   width: "100%",
-  height: "100%",
-  aspectRatio: "auto 658 / 333",
+  aspectRatio: "658 / 333", // 비율 고정
   background: "RGB(241, 206, 186)",
   position: "relative",
+  // overflow: "hidden",       // 필요 시
 });
 
 export const loading = style({

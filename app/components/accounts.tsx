@@ -24,7 +24,7 @@ const mAccounts: Account[] = [
 const bAccounts: Account[] = [
   {
     bank: "카카오",
-    number: "3333-08-295-1347",
+    number: "3333-08-2951347",
     name: "김우재",
   }
 ];
