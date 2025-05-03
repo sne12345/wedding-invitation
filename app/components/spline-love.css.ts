@@ -7,13 +7,13 @@ import { style } from "@vanilla-extract/css";
 //   background: "RGB(241, 206, 186)",
 //   position: "relative",
 // });
-export const container = style({
-  width: "100%",
-  aspectRatio: "658 / 333", // 비율 고정
-  // background: "RGB(241, 206, 186)",
-  position: "relative",
-  // overflow: "hidden",       // 필요 시
-});
+// export const container = style({
+//   width: "100%",
+//   aspectRatio: "658 / 333", // 비율 고정
+//   // background: "RGB(241, 206, 186)",
+//   position: "relative",
+//   // overflow: "hidden",       // 필요 시
+// });
 
 
 // ✅ 반응형 이미지 스타일
@@ -48,4 +48,31 @@ export const icon = style({
   position: "absolute",
   top: 0,
   left: 0,
+});
+
+export const container = style({
+  display: "flex",
+  justifyContent: "center",
+  alignItems: "center",
+  padding: "40px",
+  background: "radial-gradient(circle at center, #f0f4ff, white)", // 부드러운 배경
+});
+
+// spline-love.css.ts
+export const leafLeft = style({
+  marginRight: "20px",
+});
+
+export const leafRight = style({
+  marginLeft: "20px",
+  transform: "scaleX(-1)", // 좌우 반전
+});
+
+export const imageRound = style({
+  width: "300px",
+  height: "300px",
+  borderRadius: "50%",
+  objectFit: "cover",
+  border: "5px solid #eaeaea",
+  boxShadow: "0 6px 20px rgba(0,0,0,0.15)",
 });

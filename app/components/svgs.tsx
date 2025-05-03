@@ -68,7 +68,6 @@ export function LeavesCrownArt() {
     </svg>
   );
 }
-
 export function SmallLeavesArt() {
   return (
     <svg
@@ -102,9 +101,10 @@ export function SmallLeavesArt() {
   );
 }
 
-export function LeavesArt() {
+export function LeavesArt(props: React.SVGProps<SVGSVGElement>) {
   return (
     <svg
+      {...props}
       width="74"
       height="114"
       viewBox="0 0 74 114"

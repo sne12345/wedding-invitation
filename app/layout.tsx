@@ -17,7 +17,7 @@ export default function RootLayout({
 export async function generateMetadata(): Promise<Metadata> {
   const siteUrl = "https://wedding-invitation-liart-nine.vercel.app";
   const title = "김우재, 송나은 결혼합니다";
-  const description = "25년 5월 23일, 따뜻한 시작을 함께합니다.";
+  const description = "25년 5월 23일";
   const images = `${siteUrl}/gallery/photo8.jpg`;
   
   return {
