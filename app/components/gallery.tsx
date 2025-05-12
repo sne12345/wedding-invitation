@@ -13,18 +13,13 @@ import { SmallLeavesArt } from "./svgs";
 // export const r2 = "https://r2.wedding.beomyeong.miryang.dev";
 
 export const images = [
-  "compressed_photo7.jpg",
-  "compressed_photo2.jpg",
-  // "photo4.jpg",
-  "compressed_photo9.jpg",
-  "compressed_photo6.jpg",
+  "photo9.jpeg",
+  "photo2.jpeg",
+  "photo1.jpeg",
   "compressed_photo12.jpg",
-  "compressed_photo1.jpg",
-  // "photo3.jpg",
-  // "photo11.jpg",
-  // "photo12.jpg",
-  "compressed_photo10.jpg",
-  // 추가된 사진 이름들
+  "photo15.jpeg",
+  "photo10.jpeg",
+  "photo5.jpeg",
 ];
 
 export default function Gallery() {
