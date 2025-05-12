@@ -18,6 +18,7 @@ export const images = [
   "photo1.jpeg",
   "compressed_photo12.jpg",
   "photo15.jpeg",
+  "photo16.jpeg",
   "photo10.jpeg",
   "photo5.jpeg",
 ];
